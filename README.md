@@ -4,7 +4,7 @@ did-modify is a command line go utility that detects modified git files. Below y
 
 ### Installation
 
-You can install the did-modify utility for a specific OS at https://github.com/chef/file-mod/releases
+You can install the did-modify utility for a specific OS at https://github.com/chef/did-modify/releases
 
 Currently available for:
 OS | ARCH
