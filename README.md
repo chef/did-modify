@@ -1,4 +1,4 @@
-# did-moify
+# did-modify
 
 did-modify is a command line go utility that detects modified git files. Below you can find the the availability and usage.
 
