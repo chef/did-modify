@@ -17,16 +17,20 @@ type rootCmdOptions struct {
 }
 
 var (
+	version string
+
 	rootCmd = &cobra.Command{
-		Use:   "did-modify",
-		Short: `Prints "true" to STDOUT if any files matching GLOBS were modified between HEAD and GITREF. Otherwise, prints "false".`,
-		RunE:  didModifyE,
+		Version: version,
+		Use:     "did-modify",
+		Short:   `Prints "true" to STDOUT if any files matching GLOBS were modified between HEAD and GITREF. Otherwise, prints "false".`,
+		RunE:    didModifyE,
 	}
 
 	rootCmdOpts = &rootCmdOptions{}
 )
 
 func init() {
+	rootCmd.SetVersionTemplate("{{.Version}}\n")
 	rootCmd.Flags().StringVar(&rootCmdOpts.gitref, "git-ref", "HEAD~1", "A valid Git reference (e.g. HEAD, master, origin/master, etc).")
 	rootCmd.Flags().StringSliceVar(&rootCmdOpts.globs, "globs", []string{"*"}, "Comma-separated list of glob patterns to inspect to determine if there are changes.")
 }

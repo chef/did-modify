@@ -5,6 +5,8 @@ builds:
   - id: "did-modify"
     binary: did-modify
     main: main.go
+    ldflags:
+      - -s -w -X github.com/chef/did-modify/commands.version={{.Version}}
     env:
       - CGO_ENABLED=0
     goos:
