@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.4 -->
+<!-- latest_release 1.0.5 -->
+## [1.0.5](https://github.com/chef/did-modify/tree/1.0.5) (2021-08-09)
+
+#### Merged Pull Requests
+- Make sure to print to os.Stdout [#6](https://github.com/chef/did-modify/pull/6) ([tduffield](https://github.com/tduffield))
+<!-- latest_release -->
+
 ## [1.0.4](https://github.com/chef/did-modify/tree/1.0.4) (2021-02-19)
 
 #### Merged Pull Requests
 - Build on darwin/arm64 [#4](https://github.com/chef/did-modify/pull/4) ([tduffield](https://github.com/tduffield))
-<!-- latest_release -->
 
 ## [1.0.3](https://github.com/chef/did-modify/tree/1.0.3) (2021-01-14)
 
