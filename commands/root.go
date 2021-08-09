@@ -33,6 +33,7 @@ func init() {
 	rootCmd.SetVersionTemplate("{{.Version}}\n")
 	rootCmd.Flags().StringVar(&rootCmdOpts.gitref, "git-ref", "HEAD~1", "A valid Git reference (e.g. HEAD, master, origin/master, etc).")
 	rootCmd.Flags().StringSliceVar(&rootCmdOpts.globs, "globs", []string{"*"}, "Comma-separated list of glob patterns to inspect to determine if there are changes.")
+	rootCmd.SetOut(os.Stdout)
 }
 
 // Execute handles the execution of child commands and flags.
