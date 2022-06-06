@@ -1,11 +1,16 @@
 # Changelog
 
-<!-- latest_release 1.0.6 -->
+<!-- latest_release 1.0.7 -->
+## [1.0.7](https://github.com/chef/did-modify/tree/1.0.7) (2022-06-06)
+
+#### Merged Pull Requests
+- Updates to get builds working [#8](https://github.com/chef/did-modify/pull/8) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+<!-- latest_release -->
+
 ## [1.0.6](https://github.com/chef/did-modify/tree/1.0.6) (2022-06-06)
 
 #### Merged Pull Requests
 - Add freebsd_amd64 and linux_386 to build matrix [#7](https://github.com/chef/did-modify/pull/7) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
-<!-- latest_release -->
 
 ## [1.0.5](https://github.com/chef/did-modify/tree/1.0.5) (2021-08-09)
 
