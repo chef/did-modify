@@ -33,3 +33,8 @@ Flags:
   -h, --help             help for did-modify
 ```
 <!-- stdout -->
+
+
+# Copyright
+
+See [COPYRIGHT.md](./COPYRIGHT.md).
